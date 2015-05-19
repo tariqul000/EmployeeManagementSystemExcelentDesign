@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:orientation="vertical"
+tools:context="com.example.tariqul.assignment.EmployeeDetails"
+android:background="@drawable/bacground">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="120dp"
+    android:background="#546"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="@drawable/man"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/tvName"
+    android:text="Tariqul"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#ffbb60c0"
+    android:autoText="false" />
+<TextView
+    android:id="@+id/tvPhone"
+    android:text="01913481199"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#ffbb60c0" />
+<TextView
+    android:id="@+id/tvEmail"
+    android:text="tariqul1993@gmail.com"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#ffbb60c0" />
+<TextView
+    android:id="@+id/tvAddress"
+    android:text="Uttara; sector: 10; house: 64; Road: 10;"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#ffbb60c0" />
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+
+    >
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+android:onClick="updateEmployeeInfo"
+        />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginLeft="120dp"
+        android:onClick="DeleteFromDetails"
+
+        />
+</LinearLayout>
+
+</LinearLayout>

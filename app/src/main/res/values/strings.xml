@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_employe">Employee</string>
+    <string name="title_activity_search">Employee</string>
+    <string name="title_activity_employee_details">EmployeeDetails</string>
+    <string name="title_activity_activity__update">Activity_Update</string>
+</resources>
